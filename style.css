@@ -77,3 +77,25 @@ body{
     font-weight: 600;
     color: var(--primary-color) !important;
 }
+
+.hero-section{
+    display: flex;
+    background-color: #3f51b5;
+    border: 32px solid #0c6137;
+    border-radius: 6px;
+    margin-bottom: var(--spacing-md);
+    overflow: hidden;
+}
+
+.box-hero-img{
+    width: 60%;
+    min-height: 250px;
+    background-color: aquamarine;
+    border-right: 3px solid yellowgreen;
+}
+
+.hero-content{
+    width: 40%;
+    min-height: 250px;
+    background-color: antiquewhite;
+}
